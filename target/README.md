@@ -12,7 +12,7 @@ This project automates for checkout flow for web and api testing.
 ### IDE used
 This project is built and tested on IntelliJ IDEA
  
-### Project Dependencies 
+### Project Dependencies
  * Java 8
  * Maven 3.6.3
  * Selenium 3.141.59
@@ -21,14 +21,14 @@ This project is built and tested on IntelliJ IDEA
  * maven surefire plugin 2.22.2
  * webdrivermanager - 4.1.0 (https://github.com/bonigarcia/webdrivermanager)
 
-### Cloning the project 
+### Cloning the project
 ```markdown
-git clone
+git clone https://github.com/geeti-anand/woolies-challenge.git
 ```
 
 ### Compiling and running the project
 
-#### Web automation 
+#### Web automation
 ```markdown
 mvn clean install -Denv=prod -Dbrowser=chrome-Dcucumber.options="--tags '@websmoke'"
 ```
@@ -38,6 +38,6 @@ mvn clean install -Denv=prod -Dcucumber.options="--tags '@HappyHolidayMaker'"
 ### System parameters
  * `env` - can be specified in the maven commandline as -Denv=prod or stg
  * `browser` - supports chrome and firefox and specified with maven command line as __-Dbrowser=chrome__ or __-Dbrowser=firefox__
- 
+
 ## Note
 forcast5 api has been used for doing api testing
